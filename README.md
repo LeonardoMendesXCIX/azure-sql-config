@@ -1,19 +1,19 @@
-# 🚀 Desafio de Projeto: Configuração de Instância de Banco de Dados no Azure
+# Desafio de Projeto: Configuração de Instância de Banco de Dados no Azure
 
-## 📚 Sobre o Projeto
+## Sobre o Projeto
 
 Este repositório foi desenvolvido como parte do desafio prático da DIO, com o objetivo de documentar o processo de configuração de uma instância de Banco de Dados no **Microsoft Azure**. 
 
 Aqui você encontrará:
 
-- ✅ Resumos e anotações;
-- ✅ Dicas práticas;
-- ✅ Capturas de tela do processo;
-- ✅ Exemplos de comandos SQL para testes.
+- Resumos e anotações;
+- Dicas práticas;
+- Capturas de tela do processo;
+- Exemplos de comandos SQL para testes.
 
 ---
 
-## 🏗️ Etapas Realizadas
+## Etapas Realizadas
 
 1. Criação da conta no **Microsoft Azure**.
 2. Acesso ao portal do Azure.
@@ -30,28 +30,26 @@ Aqui você encontrará:
 
 ---
 
-## 🔧 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-- ☁️ **Microsoft Azure**
-- 🗄️ **Azure SQL Database / SQL Managed Instance**
-- 🔗 **Git & GitHub**
-- ✍️ **Markdown**
+- **Microsoft Azure**
+- **Azure SQL Database / SQL Managed Instance**
 
 ---
 
-## 📝 Anotações e Dicas Importantes
+## Anotações e Dicas Importantes
 
-### 🔸 Criação do Banco no Azure
+### Criação do Banco no Azure
 
 - Na etapa de criação, opte por uma **região geográfica próxima** para melhorar a performance.
 - A camada de preço pode ser ajustada posteriormente. Para fins de estudo, escolha a camada gratuita ou de menor custo.
 
-### 🔸 Configuração de Acesso (Firewall)
+### Configuração de Acesso (Firewall)
 
 - É obrigatório liberar seu **IP público** para acessar o banco fora do Azure.
 - Habilitar a opção **"Permitir que os serviços do Azure acessem este servidor"** ajuda em testes rápidos dentro da nuvem.
 
-### 🔸 Boas Práticas
+### Boas Práticas
 
 - Guarde bem as credenciais: nome do servidor, login e senha.
 - Use o **Azure Query Editor** para executar comandos SQL diretamente do navegador, sem necessidade de ferramentas externas.
@@ -62,35 +60,19 @@ Aqui você encontrará:
 
 ---
 
-## 🖼️ Imagens do Processo
-
-As capturas de tela estão disponíveis na pasta [`/images`](./images) deste repositório. Elas mostram:
-
-- 🏗️ Criação da instância;
-- 🔐 Configuração de firewall;
-- ✅ Execução de consultas SQL;
-- 📊 Visualização da base de dados no portal do Azure.
-
----
-
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```
 azure-sql-config/
 │
 ├── README.md
-├── /images
-│   ├── criar-instancia.png
-│   ├── configurar-firewall.png
-│   ├── query-teste.png
-│   └── banco-no-portal.png
 └── /docs
     └── comandos-sql-teste.md
 ```
 
 ---
 
-## 🔢 Comandos SQL de Teste
+## Comandos SQL de Teste
 
 Exemplos de comandos que podem ser executados após a criação do banco para validar sua conexão:
 
@@ -120,17 +102,9 @@ O arquivo completo com esses comandos está na pasta [`/docs`](./docs/comandos-s
 
 ---
 
-## 💡 Conclusão
+## Conclusão
 
 Este projeto foi uma excelente oportunidade para colocar em prática os conhecimentos adquiridos sobre serviços em nuvem e bancos de dados no **Microsoft Azure**, além de fortalecer minhas habilidades na utilização do **GitHub** para documentação técnica.
-
----
-
-## 🔗 Links Úteis
-
-- 🔵 [Documentação Oficial do Azure SQL](https://learn.microsoft.com/pt-br/azure/azure-sql/)
-- 🔵 [Documentação Oficial do GitHub](https://docs.github.com/pt)
-- 🔵 [Guia Markdown no GitHub](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
 
 ---
 
